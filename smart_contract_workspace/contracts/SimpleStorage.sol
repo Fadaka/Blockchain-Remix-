@@ -8,6 +8,7 @@ contract SimpleStorage {
     uint256 favoriteNumber;
     bool favoriteBool;
 
+    //Struct creates a new variable type , with parameters favoriteNumber and name of the types unit256
     struct People {
         uint256 favoriteNumber;
         string name;
